@@ -8,7 +8,7 @@ public class Main {
         char c = sc.next().charAt(0);
 
         int n = str.indexOf(c);
-        if(n>0){
+        if(n>=0){
             System.out.print(n);
         }else{
             System.out.print("No");
